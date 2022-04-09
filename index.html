@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Birthday </title>
+
+    <style>
+        
+html{
+  height: 100%;
+  background-color: #EBF2FA;
+}
+
+.container{
+  overflow: hidden;
+  height: 500px;
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("https://instagram.fbir2-1.fna.fbcdn.net/v/t51.2885-15/278038712_3025005014383023_2935738992567915087_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08&_nc_ht=instagram.fbir2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=H8Y08JIdWhIAX9lw02l&edm=ABJHkxYAAAAA&ccb=7-4&ig_cache_key=MjgxMjMyMjAyNTg0NjU3MzYxMQ%3D%3D.2-ccb7-4&oh=00_AT8Yd7dZ9WgeNWeuTY9L2yATXrctAKNa6eg465qoBVnFlg&oe=62571648&_nc_sid=fa978c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  z-index: 999;
+}
+
+.container div{
+  background: linear-gradient(135deg,
+              #7844E9 0%, #0979FF 100%);
+  border-radius: 20px;
+  border: 10px solid #E5EDF5;
+  box-sizing: border-box;
+  box-shadow: -4px -2px 8px #fff, 4px 2px 8px rgba(95, 157, 231, 0.657315);
+  height: 300px;
+  min-width: 180px;
+  margin-left: 10px;
+  animation: slide 15s linear infinite;
+
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EBF2FA;
+  font-size: 70px;
+  font-family: arial;
+  text-shadow: #fff 1px 0 5px;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1500px, 0, 0)
+  }
+}
+
+@media (max-width: 667px){
+    .container div {
+        height: 200px;
+        min-width: 100px;
+    }
+    .container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://instagram.fbir2-1.fna.fbcdn.net/v/t51.2885-15/278038712_3025005014383023_2935738992567915087_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08&_nc_ht=instagram.fbir2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=H8Y08JIdWhIAX9lw02l&edm=ABJHkxYAAAAA&ccb=7-4&ig_cache_key=MjgxMjMyMjAyNTg0NjU3MzYxMQ%3D%3D.2-ccb7-4&oh=00_AT8Yd7dZ9WgeNWeuTY9L2yATXrctAKNa6eg465qoBVnFlg&oe=62571648&_nc_sid=fa978c");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.item{
+    margin-top: 5rem;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+
+    <div class="item"> H </div>
+    <div class="item"> A </div>
+    <div class="item"> P </div>
+    <div class="item"> P </div>
+    <div class="item"> Y </div>
+    
+    <div class="item"> B </div>
+    <div class="item"> I </div>
+    <div class="item"> R </div>
+    <div class="item"> T </div>
+    <div class="item"> H </div>
+    <div class="item"> D </div>
+    <div class="item"> A </div>
+    <div class="item"> Y </div>
+    
+    <div class="item"> T </div>
+    <div class="item"> U </div>
+    <div class="item"> R </div>
+    <div class="item"> P </div>
+</div>
+
+
+  
+</body>
+</html>
